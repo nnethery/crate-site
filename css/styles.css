@@ -4,6 +4,10 @@ body {
     font-family: "Helvetica Neue";
 }
 
+label {
+    font-weight: 500;
+}
+
 .navbar-brand {
     font-family: 'Righteous';
     font-size: 2rem;
