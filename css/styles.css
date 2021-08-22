@@ -1,0 +1,23 @@
+body {
+    background-color: #C7C8C0;
+    /* font-family: 'Open Sans'; */
+    font-family: "Helvetica Neue";
+}
+
+.navbar-brand {
+    font-family: 'Righteous';
+    font-size: 2rem;
+    color: black !important;
+    padding-right: 1rem;
+}
+
+.navbar {
+    background-color: #6A6A6A;
+}
+
+@media (min-width: 768px) {
+    .navbar-dark .navbar-nav .nav-link {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
