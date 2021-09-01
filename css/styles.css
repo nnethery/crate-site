@@ -10,6 +10,7 @@ h2,
 h4,
 h5 {
     font-weight: bold !important;
+    margin-bottom: 1.5rem;
 }
 
 label {
