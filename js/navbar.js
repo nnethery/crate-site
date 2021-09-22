@@ -21,6 +21,7 @@ class NavBar extends React.Component {
                         e('a', { className: this.state.active == 'faq' ? 'nav-link active' : 'nav-link', href: 'faq.html' }, 'faq'),
                         e('a', { className: this.state.active == 'contact' ? 'nav-link active' : 'nav-link', href: 'contact.html' }, 'contact us'),
                         e('a', { className: this.state.active == 'about' ? 'nav-link active' : 'nav-link', href: 'about.html' }, 'about us'),
+                        e('a', { className: this.state.active == 'tech' ? 'nav-link active' : 'nav-link', href: 'tech.html' }, 'the tech'),
                     ),
                 )
             )

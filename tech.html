@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <!-- Meta -->
+    <title>Crate — tech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- External -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- <script src="js/rewrite.js"></script> -->
+</head>
+
+<body>
+
+    <div id="navbar-container" active="tech"></div>
+
+    <div class="col-lg-8 mx-auto p-3 py-md-3">
+        <br>
+        <p>We understand NFTs and blockchain technology are very new so let’s break down the exact details of how it all works.</p>
+        <p>We use <a class="link-dark" href="#blockchain"><b><i>blockchain</i></b></a> technology to produce <a class="link-dark" href="#NFTs"><b><i>NFTs</i></b></a> for artists’ records. This makes each release a digitally authenticated item and allows us to provide a serial number for each record. Artists collaborate with our team to determine how many NFTs they want to <a class="link-dark" href="#mint"><b><i>mint</i></b></a>. Say an artist wants to make 100 copies of their latest record: each record sold will have its own serial number. So someone may own record no. 1 of 100, someone else no. 72 out of 100, and so on.</p>
+        <p>Records can be resold on our marketplace (coming soon), which will then transfer the NFT from past owner to new owner. Past owners will still be able to stream the music they previously owned, but will forfeit the chance to download and listen to the music offline.</p>
+        <p>Now with blockchain and NFTs, there are <a class="link-dark" href="#gas-fees"><b><i>gas fees</i></b></a>. This is the responsibility of the purchaser to pay, like a blockchain tax, if you will. There are also <a class="link-dark" href="#account-fees"><b><i>account fees</i></b></a>, which we will be responsible for. That way everything remains as free and accessible as possible.</p>
+        <p>Regarding payment, everything will be accounted for with <a class="link-dark" href="#smart-contracts"><b><i>smart contracts</i></b></a>. This ensures our artists get paid for everything initial purchase and every resale of their work, guaranteed. Everything is also paid for in USD, so there is no hassle of calculating fractions of cryptocurrency to buy music.  </p>
+        <p>We use the Flow token and blockchain, which is a much more environmentally friendly alternative than other <a class="link-dark" href="#cryptocurrencies"><b><i>cryptocurrencies</i></b></a>. </p>
+
+        <h3>Glossary</h3>
+        <p id="blockchain"><b>blockchain</b> -  a decentralized system to store, track, and authenticate purchases, items and accounts.</p>
+        <p id="NFTs"><b>NFTs</b>  - non-fungible tokens are units of data stored on the blockchain so it is certifiably unique. </p>
+        <p id="mint"><b>mint</b>  - the digital blockchain version of pressing a vinyl record. Making an NFT. </p>
+        <p id="master-quality-audio"><b>master quality audio</b>  - lossless audio so the masters an artist sends are exactly what the listener hears.</p>
+        <p id="compressed-audio"></p><b>compressed audio</b>  - lower quality audio that will be used so previous owners of records can still enjoy the music without slowing down the streaming of master quality audio to record owners.</p>
+        <p id="gas-fees"><b>gas fees</b>  - the price paid to authorize transactions on the blockchain. </p>
+        <p id="account-fees"><b>account fees</b> - there is a cost to have accounts on the blockchain, but again, we got it covered so Crate is free to use.</p>
+        <p id="smart-contracts"><b>smart contracts</b> - the contract agreed upon by all parties to ensure artists and resellers get paid when a transaction occurs.</p>
+        <p id="cryptocurrencies"><b>cryptocurrencies</b> - a digital currency in which transactions are verified and the records are maintained by a decentralized system (blockchain).</p>
+    </div>
+    <footer class="container footer mt-auto py-3">
+        <div class="row social-icons justify-content-center px-5">
+            <a href="https://www.instagram.com/digcrate/" class="" target="_blank" style="width: auto;">
+                <img class="p-0 mx-2 social-icon" src="img/footer/instagram.png" alt="crate instagram">
+            </a>
+            <a href="https://discord.gg/RDaDMugzwQ" class="" target="_blank" style="width: auto;">
+                <img class="p-0 mx-2 social-icon" src="img/footer/discord.png" alt="crate discord">
+            </a>
+            <a href="https://twitter.com/digcrate" class="" target="_blank" style="width: auto;">
+                <img class="p-0 mx-2 social-icon" src="img/footer/twitter.png" alt="crate twitter">
+            </a>
+        </div>
+        <div class="row justify-content-center py-3" style="text-align: center;">
+            <p style="color: #636363;">Crate Holdings, LLC | <a class="link-dark" href="privacy.html" style="color: #636363;">Privacy Policy</a></p>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>
