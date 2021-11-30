@@ -9,9 +9,13 @@ h3,
 h2,
 h4,
 h5 {
-    font-weight: bold !important;
+    font-weight: bold;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+}
+
+.page-title {
+    font-weight: 500;
 }
 
 label {
@@ -42,6 +46,7 @@ label {
 
 @media (min-width: 768px) {
     .navbar-dark .navbar-nav .nav-link {
+        font-family: 'Outfit', sans-serif;
         padding-left: 4rem;
         padding-right: 3rem;
         font-size: 1.5rem;

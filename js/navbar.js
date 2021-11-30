@@ -17,11 +17,11 @@ class NavBar extends React.Component {
                     e('span', { className: 'navbar-toggler-icon' })),
                 e('div', { className: 'collapse navbar-collapse', id: 'navbarNavAltMarkup' },
                     e('div', { className: 'navbar-nav' },
-                        e('a', { className: this.state.active == 'artists' ? 'nav-link active' : 'nav-link', href: 'artists.html', }, 'artists'),
-                        e('a', { className: this.state.active == 'faq' ? 'nav-link active' : 'nav-link', href: 'faq.html' }, 'faq'),
-                        e('a', { className: this.state.active == 'contact' ? 'nav-link active' : 'nav-link', href: 'contact.html' }, 'contact us'),
-                        e('a', { className: this.state.active == 'about' ? 'nav-link active' : 'nav-link', href: 'about.html' }, 'about us'),
-                        e('a', { className: this.state.active == 'tech' ? 'nav-link active' : 'nav-link', href: 'tech.html' }, 'the tech'),
+                        e('a', { className: this.state.active == 'about' ? 'nav-link active' : 'nav-link', href: 'about.html' }, 'About Us'),
+                        e('a', { className: this.state.active == 'artists' ? 'nav-link active' : 'nav-link', href: 'artists.html', }, 'Artists'),
+                        e('a', { className: this.state.active == 'tech' ? 'nav-link active' : 'nav-link', href: 'tech.html' }, 'The Tech'),
+                        e('a', { className: this.state.active == 'faq' ? 'nav-link active' : 'nav-link', href: 'faq.html' }, 'FAQ'),
+                        e('a', { className: this.state.active == 'contact' ? 'nav-link active' : 'nav-link', href: 'contact.html' }, 'Contact Us'),
                     ),
                 )
             )
