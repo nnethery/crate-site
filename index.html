@@ -63,12 +63,15 @@
 
         const db = firebase.firestore();
 
+        let event = new Date()
+
         function waitlistSubmit() {
             db.collection('waitlist').add({
                 email: document.getElementById('email').value,
                 first_name: document.getElementById('fname').value,
                 last_name: document.getElementById('lname').value,
-                source: 'website'
+                source: 'website',
+                timestamp: event.toISOString()
             });
 
             document.getElementById('waitlist').reset();
